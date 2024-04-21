@@ -1,6 +1,4 @@
-"# Big-Data-Processing" 
-
-# HugeFileProcessor
+# BigDataProcessing
 
 ## Description
 HugeFileProcessor is a C# application designed to efficiently process large numerical data files. It reads two large data files concurrently, sums corresponding numerical values from each file, and writes the results to a new output file. This application leverages multithreading and parallel processing techniques to optimize performance, particularly beneficial for tasks limited by I/O and CPU throughput.
@@ -39,5 +37,3 @@ dotnet run -- hugefile1.txt hugefile2.txt totalfile.txt
 ## Author
 - Eric Ramirez
 
-## License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
